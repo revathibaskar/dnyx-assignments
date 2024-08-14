@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(#ffa7b6,rgb(185, 52, 185));
+    height:100vh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+
+}
+
+.heading{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.password-head{
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.input-style{
+    width:100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.err-msg{
+    color:red;
+    font-size: 14px;
+
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-style{
+    height:35px;
+    width:90px;
+    padding:6px;
+    background-color: rgb(69, 69, 255);
+    color:#ffffff;
+    border:none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 15px;
+}
